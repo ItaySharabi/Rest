@@ -44,7 +44,6 @@ public class BranchesListViewActivity extends AppCompatActivity {
         // Extract restID from previous activity
         String restID = getIntent().getStringExtra("restID");
 
-
         // Retrieve data from Database
         rdb.getBranches(restID,
                 new OnDataReceived() {

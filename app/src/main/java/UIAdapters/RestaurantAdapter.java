@@ -47,9 +47,6 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
         }
 
         // Lookup view for data population
-//        TextView restName = convertView.findViewById(R.id.setRestaurantName);
-//        restName.setText(restaurantName);
-
         Button moveToBranchesBtn = convertView.findViewById(R.id.restaurantBranchesButton);
         moveToBranchesBtn.setText(restaurantName);
         moveToBranchesBtn.setOnClickListener(new View.OnClickListener() {
@@ -69,7 +66,6 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
                 getContext().startActivity(moveToBranchesActivity);
             }
         });
-
 
         // Return the completed view to render on screen
         return convertView;
