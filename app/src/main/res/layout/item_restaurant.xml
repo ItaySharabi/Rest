@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:weightSum="100"
-    android:padding="40dp"
-    >
+    android:padding="40dp">
 
     <Button
         android:id="@+id/restaurantBranchesButton"
@@ -13,6 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="33.3"
         android:gravity="center"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
         android:text="Go to branches"
         android:textColor="@android:color/black" />
 
